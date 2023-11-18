@@ -1,0 +1,80 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="483dp"
+            android:height="483dp"
+            android:viewportWidth="483"
+            android:viewportHeight="483">
+            <group android:name="group_1">
+                <group android:name="group">
+                    <path
+                        android:name="path"
+                        android:pathData="M 0 0 L 483 0 L 483 483 L 0 483 Z"
+                        android:fillColor="#1a1a1a"
+                        android:strokeWidth="1"/>
+                    <path
+                        android:name="path_1"
+                        android:pathData="M 150.65 323 L 332.36 323 C 334.704 323 336.954 323.932 338.611 325.589 C 340.268 327.246 341.2 329.496 341.2 331.84 L 341.2 351.16 C 341.2 353.504 340.268 355.754 338.611 357.411 C 336.954 359.068 334.704 360 332.36 360 L 150.65 360 C 148.306 360 146.056 359.068 144.399 357.411 C 142.742 355.754 141.81 353.504 141.81 351.16 L 141.81 331.84 C 141.81 329.496 142.742 327.246 144.399 325.589 C 146.056 323.932 148.306 323 150.65 323 M 82.49 154.22 L 198.49 154.22 L 198.49 270.22 L 82.49 270.22 Z"
+                        android:fillColor="#c7b299"
+                        android:strokeWidth="1"/>
+                    <path
+                        android:name="path_2"
+                        android:pathData="M 129.49 201.22 L 148.49 201.22 L 148.49 270.22 L 129.49 270.22 Z"
+                        android:fillColor="#1a1a1a"
+                        android:strokeWidth="1"/>
+                </group>
+                <group android:name="group_2">
+                    <path
+                        android:name="path_3"
+                        android:pathData="M 172.49 185.21 L 172.49 204.21 L 103.49 204.21 L 103.49 185.21 Z"
+                        android:fillColor="#1a1a1a"
+                        android:strokeWidth="1"/>
+                </group>
+                <group android:name="eyes">
+                    <path
+                        android:name="path_4"
+                        android:pathData="M 283.49 154.22 L 399.49 154.22 L 399.49 270.22 L 283.49 270.22 Z"
+                        android:fillColor="#c7b299"
+                        android:strokeWidth="1"/>
+                    <path
+                        android:name="path_5"
+                        android:pathData="M 330.49 201.22 L 349.49 201.22 L 349.49 270.22 L 330.49 270.22 Z"
+                        android:fillColor="#1a1a1a"
+                        android:strokeWidth="1"/>
+                    <path
+                        android:name="path_6"
+                        android:pathData="M 373.49 185.21 L 373.49 204.21 L 304.49 204.21 L 304.49 185.21 Z"
+                        android:fillColor="#1a1a1a"
+                        android:strokeWidth="1"/>
+                </group>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="eyes">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="translateY"
+                android:startOffset="1"
+                android:duration="699"
+                android:valueFrom="0"
+                android:valueTo="-35"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="group_2">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="rotation"
+                android:startOffset="7"
+                android:duration="693"
+                android:valueFrom="0"
+                android:valueTo="2"
+                android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+</animated-vector>
